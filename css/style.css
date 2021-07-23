@@ -30,9 +30,6 @@ ul {
 
 
 /* Navigation        */
-.navbar-light .navbar-toggler-icon {
-  background-image: url("/menu-icon.png") !important;
-}
 nav {
   background: white;
   border-bottom: 1px solid #E0E0E0;
@@ -105,6 +102,9 @@ header {
   letter-spacing: 6px;
   font-weight: 400;
 }
+
+
+
 svg {
   fill: #CCA076;
   width: 45px !important;
@@ -161,7 +161,6 @@ li::marker {
   opacity: 1;
   transition: 0s;
 }
- 
 
 
 /* Header Text      */
@@ -197,7 +196,6 @@ header {
   font-size: 18px;
   color: #fff;
 }
-
 
 
 /* Overview        */
@@ -271,6 +269,10 @@ header {
 
 
 
+/* Location        */
+
+
+
 /* Floorplans        */
 .floorplan-row p {
   font-size: 13px;
@@ -320,6 +322,10 @@ header {
 
 
 
+/* Interior        */
+
+
+
 /* Neighborhood        */
 .neighborhood-row p {
   font-size: 14px;
@@ -359,7 +365,7 @@ input[type="text"] , input[type="email"]   {
 }
 
 
- 
+
 /* Footer        */
 footer {
   background: #202020;
@@ -390,9 +396,11 @@ footer a:hover {
 :target:before {
 content:"";
 display:block;
-height:60px; /* fixed header height*/
-margin:-60px 0 0; /* negative fixed header height */
+height:60px;
+margin:-60px 0 0;
 }
+
+
 
 
 /* MEDIA  */
@@ -669,3 +677,62 @@ margin:-60px 0 0; /* negative fixed header height */
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR               *******************/
+/* @media(max-width: 786px) {
+
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #fff;
+  }
+
+  nav.black ul {
+    background: #070617;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logo {
+    margin: 15px 20px;
+  }
+} */
